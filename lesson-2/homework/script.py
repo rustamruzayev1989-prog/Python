@@ -19,3 +19,10 @@ print(reversed_txt)
 def get_vowels(my_string):
     return [each for each in my_string if each in "aeiou"]
 print(get_vowels("Uzbekistan"))
+numbers = [10, 5, 20, 8, 15]
+max_number = numbers[0]
+for number in numbers:
+    if number > max_number:
+        max_number = number
+        print(max_number)
+        
