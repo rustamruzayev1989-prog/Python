@@ -25,4 +25,6 @@ for number in numbers:
     if number > max_number:
         max_number = number
         print(max_number)
-        
+email = input("Введите адрес электронной почты: ")
+domain = email.split('@')[-1]
+print(f"Домен: {domain}")
