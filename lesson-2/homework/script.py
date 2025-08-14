@@ -10,3 +10,6 @@ print(result)
 txt = 'MsaatmiazD'
 result = txt[0] + txt[2] + txt[4] + txt[6] + txt[8] 
 print(result)
+txt = "I'am John. I am from London"
+result = txt[21:30]
+print(result)
