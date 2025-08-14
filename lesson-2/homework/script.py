@@ -7,3 +7,6 @@ print(f"Salom, {name}! Sen {age} yoshdasan.")
 txt = 'LMaasleitbtui'
 result = txt[1] + txt[2] + txt[5] + txt[7] + txt[9] + txt[11]
 print(result)
+txt = 'MsaatmiazD'
+result = txt[0] + txt[2] + txt[4] + txt[6] + txt[8] 
+print(result)
