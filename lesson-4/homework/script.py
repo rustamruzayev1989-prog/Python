@@ -12,3 +12,9 @@ dic2 = {3: 30, 4: 40}
 dic3 = {5: 50, 6: 60}
 result = {**dic1, **dic2, **dic3}
 print(result)
+n = int(input("Raqamni kiriting n:"))
+my_dict = {}
+for i in range(1, n+1):
+    my_dict[i] = i*i
+print(f"n uchun lug'at n={n}:")
+print(my_dict)
