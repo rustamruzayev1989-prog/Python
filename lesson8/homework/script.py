@@ -10,3 +10,9 @@ try:
     print("siz son kirittingiz", num)
 except ValueError:
     print("siz butun son kirittingiz")
+try:
+    with open("statxujjat.txt") as f:
+        data = f.read()
+        print(data)
+except FileNotFoundError:
+    print("xato fayl topilmadi")
