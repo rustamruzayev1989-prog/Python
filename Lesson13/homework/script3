@@ -1,1 +1,7 @@
-
+from datetime import datetime, timedelta
+current_str = input("Введите текущую дату и время (в формате ГГГГ-ММ-ДД ЧЧ:ММ): ")
+current_dt = datetime.strptime(current_str, "%Y-%m-%d %H:%M")
+hours = int(input("Сколько часов длится встреча? "))
+minutes = int(input("Сколько минут длится встреча? "))
+end_dt = current_dt + timedelta(hours=hours, minutes=minutes)
+print("Встреча закончится:", end_dt.strftime("%Y-%m-%d %H:%M"))
