@@ -7,3 +7,7 @@ def is_prime(n: int):
     return True
 print(is_prime(4))  
 print(is_prime(7)) 
+def digit_sum(k):
+    return sum(int(digit) for digit in str(k))
+print(digit_sum(24)) 
+print(digit_sum(502))
