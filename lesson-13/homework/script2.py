@@ -1,0 +1,11 @@
+from datetime import date
+name = input("Как тебя зовут? ")
+birth_of_year = int(input("Укажи год рождения: "))
+month_of_birth = int(input("Укажи месяц рождения: "))
+day_of_birth = int(input("Укажи день рождения: "))
+today = date.today()
+next_birthday = date(today.year, month_of_birth, day_of_birth)
+if next_birthday < today:
+    next_birthday = date(today.year + 1, month_of_birth, day_of_birth)
+days_left = (next_birthday - today).days
+print(f"Привет, {name}! До твоего следующего дня рождения осталось {days_left} дней.")
