@@ -9,7 +9,7 @@ def main():
     email = input("Введите адрес электронной почты: ").strip()
 
     if validate_email(email):
-        print("✅ Email корректный!")
+        print("Email корректный!")
     else:
         print("Неверный формат email!")
 
